@@ -1,46 +1,70 @@
-*{margin: 0;}
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 .header {
-    background: #57a958;
-    text-align: left;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    padding: 4px;
-    font-family: sans-serif;
+    background-color: #ff1744; /* Red */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
 
 .control-panel {
-    background: lightgray;
-    text-align: right;
-    padding: 4px;
-    font-family: sans-serif;
+    background-color: #000; /* Black */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
 
-.languages {
-    background: white;
-    border: 1px solid gray;
+.editor {
+    background-color: #000; /* Black */
+    color: #fff;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
 }
-
-#editor { height: 400px; }
 
 .button-container {
-    text-align: right;
-    padding: 4px;
+    text-align: center;
 }
 
 .btn {
-    background: #57a958;
-    color: white;
-    padding: 8px;
-    border: 0;
+    background-color: #39ff14; /* Neon Green */
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 .output {
-        padding: 4px;
-        border: 2px solid gray;
-        min-height: 100px;
-        width: 99%;
-        resize: none;
+    background-color: #000; /* Black */
+    color: #fff;
+    padding: 10px;
+    margin: 20px;
+}
 
+/* Optional: Add styles for the output text if needed */
+.output p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Optional: Add styles for the code editor */
+#editor {
+    border: 1px solid #ff1744; /* Red */
+}
+
+/* Optional: Add styles for the button hover effect */
+.btn:hover {
+    background-color: #000; /* Black */
+    color: #fff;
 }
