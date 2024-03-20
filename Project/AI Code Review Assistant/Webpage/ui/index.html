@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online IDE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online IDE</h1>
+    </header>
+    <main>
+        <section class="ide">
+            <textarea id="code-editor" placeholder="Write your code here..."></textarea>
+        </section>
+        <section class="actions">
+            <button id="btn-build">Build</button>
+            <button id="btn-run" onclick="executeCode()">Run</button>
+        </section>
+        <section class="output">
+            <div id="output"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
